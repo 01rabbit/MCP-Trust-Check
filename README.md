@@ -4,7 +4,7 @@ MCP の公式 SDK を「修正版に上げた」のに、修正が効いてい�
 
 2025年12月から2026年10月にかけて、MCP の公式 SDK（Python・TypeScript・Go）には通信と認可まわりのアドバイザリが続けて出ました。そのうちいくつかは、修正版に更新しただけでは何も変わらず、新しい引数を渡すか、保存済みの資格情報を作り直す必要があります。このリポジトリはそこを点検します。
 
-- 記事：[MCPのOAuthは更新だけでは塞がらない――手元で再現して点検ツールを作った](https://qiita.com/01rabbit/)（公開予定）
+- 解説記事（Qiita）：[MCPのOAuthは更新だけでは塞がらない――手元で再現して点検ツールを作った](https://qiita.com/01rabbit/items/a916d76895b43e19503f)
 
 ## 特徴
 
@@ -95,6 +95,7 @@ python3 -m unittest discover -s tests -v
 
 ## 参考
 
+- [解説記事：MCPのOAuthは更新だけでは塞がらない――手元で再現して点検ツールを作った（Qiita）](https://qiita.com/01rabbit/items/a916d76895b43e19503f)
 - [GHSA-qx49-fqc8-xw99（Python SDK）](https://github.com/modelcontextprotocol/python-sdk/security/advisories/GHSA-qx49-fqc8-xw99)
 - [GHSA-6qxp-vccf-f47h（TypeScript SDK）](https://github.com/modelcontextprotocol/typescript-sdk/security/advisories/GHSA-6qxp-vccf-f47h)
 - [MCP 仕様 2026-07-28 版 Authorization](https://modelcontextprotocol.io/specification/2026-07-28/basic/authorization)
